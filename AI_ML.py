@@ -57,6 +57,8 @@ sns.boxplot(data=iris)
 plt.title("Box Plot for Outlier Detection")
 plt.show()
 
+
+#.............uploading file for task 3 ..................................
 from google.colab import files
 
 uploaded = files.upload()
@@ -141,6 +143,7 @@ importance = importance.sort_values(
 print("\nImportant Features:")
 print(importance.head())
 
+#........................uploading files for task 6......................
 from google.colab import files
 
 uploaded = files.upload()
